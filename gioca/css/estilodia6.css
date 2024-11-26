@@ -1,0 +1,16 @@
+body{
+    background-image: url("img/promise.jpg");
+    /*ajustar a imagem para cobrir a tela toda*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+border-style: dotted
+}
+
+.traco{
+border-style: dashed;
+}

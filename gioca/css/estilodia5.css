@@ -1,0 +1,83 @@
+/* "Reset básico" */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* cabeçalho */
+header{
+    background-color: blueviolet;
+    color: #fff
+    padding 1rem;
+    text-align: center;
+}
+
+/* cabeçalho */
+header h1{
+    margin-top: 0.5rem;
+    color: rgb(255, 255, 255);
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul a:hover{
+    color: #ddd;
+}
+
+/* layout principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+/* SEÇÃO */
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(83, 1, 121);
+    width: 100%;
+}
+
+section#home {
+    width: 100%;
+}
+
+section h2{
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* rodapé */
+footer{
+    text-align: center;
+}
+
+h1 {
+    opacity: 90%;
+    
+}
